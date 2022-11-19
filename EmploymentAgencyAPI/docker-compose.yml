@@ -1,0 +1,12 @@
+version: "3.9"  # optional since v1.27.0
+services:
+    api:
+        image:
+            marcinwszymanek/easyemploy-service:API
+        ports:
+         - "7066:7066"
+    web:
+        image:
+            marcinwszymanek/easyemploy-service:Client
+        ports:
+          - "3000:3000"

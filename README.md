@@ -1,5 +1,5 @@
 # EasyEmploy-service
-Sample service for a simplified job listing portal. Backend written in C# using EFCore, Frontend in React. Docker images are publicly available, and docker-compose.yml is included.
+Sample service for a simplified job listing portal. Backend written in C# using .NET6.0, EFCore with a React frontend. Docker images are publicly available, and docker-compose.yml is included.
 
 # Installation guide:
 
